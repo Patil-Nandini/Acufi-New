@@ -32,51 +32,6 @@ export default function AcuView() {
             storefront and online lenders. You&apos;ll know if an applicant is
             stacking loans before you fund, not after they default.
           </p>
-
-          {/* Buttons */}
-          {/* <div className="flex flex-col  sm:flex-row gap-2 mt-6">
-            <button
-              type="button"
-              className="flex items-center justify-center h-[90px] text-white font-semibold cursor-pointer w-[240px] sm:w-[300px] px-7 sm:px-15px"
-              style={{
-                backgroundImage: "url('/AcuViewButtonBg.webp')",
-                backgroundSize: "100% 100%",
-                backgroundRepeat: "no-repeat",
-                paddingBottom: "25px",
-                // paddingLeft: "15px",
-                // paddingRight: "15px",
-              }}
-              aria-label="Start Your Free 90-Day Trial"
-              onClick={() =>
-                (window.location.href =
-                  "https://acufi.com/acuview-get-started/")
-              }
-            >
-              <Image
-                src="/RocketIcon.png"
-                alt="Rocket Icon"
-                width={20}
-                height={20}
-              />
-              <span className="ml-2">Start Your Free 90-Day Trial</span>
-            </button>
-
-            <button
-              className="flex items-center justify-center w-[230px] sm:w-[270px]  h-[60px] text-[#085AAC] font-semibold border-2 border-[#085AAC] rounded-full shadow-md px-5 cursor-pointer"
-              // style={{ height: "55px" }}
-              onClick={() =>
-                (window.location.href = "https://acufi.com/lets-connect/")
-              }
-            >
-              <Image
-                src="/VideoIcon.png"
-                alt="Demo Icon"
-                width={25}
-                height={25}
-              />
-              <span className="ml-2">See AcuView in Action</span>
-            </button>
-          </div> */}
           <div className="flex flex-wrap gap-[0] xl:gap-[2] mt-6 justify-start sm:justify-start ml-[-8]">
             <button
               type="button"
@@ -97,6 +52,7 @@ export default function AcuView() {
                 alt="Rocket Icon"
                 width={20}
                 height={20}
+                loading="lazy"
               />
               <span className="ml-2 whitespace-nowrap">
                 Start Your Free 30-Day Trial
@@ -115,6 +71,7 @@ export default function AcuView() {
                 alt="Demo Icon"
                 width={25}
                 height={25}
+                loading="lazy"
               />
               <span className="ml-2 whitespace-nowrap">
                 See AcuView in Action
@@ -123,13 +80,11 @@ export default function AcuView() {
           </div>
         </div>
 
-        {/* Right Illustration */}
         <div className="flex-1 flex justify-center lg:justify-end w-[100%]">
           <object
             type="image/svg+xml"
             data="/Real-time-loan- intelligence.svg"
             className="w-[90%]"
-            // className="w-[85%] sm:w-[70%] md:w-[85%] lg:w-full  h-auto"
           >
             Real-Time Loan Intelligence
           </object>
@@ -226,6 +181,7 @@ export default function AcuView() {
                     width={30}
                     height={30}
                     className="w-[30px] h-[30px] mr-2"
+                    loading="lazy"
                   />
                   {item}
                 </li>

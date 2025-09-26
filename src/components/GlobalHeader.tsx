@@ -109,6 +109,7 @@ export default function GlobalHeader() {
                           alt={product.name}
                           width={28}
                           height={28}
+                          loading="lazy"
                         />
                       </div>
                       <div className="flex flex-col">

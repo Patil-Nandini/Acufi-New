@@ -35,6 +35,7 @@ export default function FoundingMembersPage() {
                         width={88}
                         height={88}
                         className="w-22 h-22"
+                        loading="lazy"
                       />
                     </object>
                   </div>
@@ -66,6 +67,7 @@ export default function FoundingMembersPage() {
                         width={88}
                         height={88}
                         className="w-22 h-22"
+                        loading="lazy"
                       />
                     </object>
                   </div>
@@ -101,6 +103,7 @@ export default function FoundingMembersPage() {
                     width={20}
                     height={20}
                     className="w-5 h-5"
+                    loading="lazy"
                   />
                   Talk to Sales
                 </button>
@@ -115,6 +118,7 @@ export default function FoundingMembersPage() {
               width={1200}
               height={800}
               className="w-[85%] h-auto lg:w-[60%] xl:w-[85%]"
+              loading="lazy"
             />
           </div>
         </section>
@@ -127,6 +131,7 @@ export default function FoundingMembersPage() {
               width={800}
               height={400}
               className="mx-auto mb-4 hidden md:block"
+              loading="lazy"
             />
 
             <Image
@@ -135,6 +140,7 @@ export default function FoundingMembersPage() {
               width={400}
               height={300}
               className="mx-auto mb-4 block md:hidden"
+              loading="lazy"
             />
           </div>
 
@@ -159,6 +165,7 @@ export default function FoundingMembersPage() {
                   width={64}
                   height={64}
                   className="mb-4 w-16 h-16 lg:w-12 lg:h-12"
+                  loading="lazy"
                 />
               </object>
               <h4 className="text-base font-semibold text-black">STEP 1</h4>
@@ -186,6 +193,7 @@ export default function FoundingMembersPage() {
                   width={64}
                   height={64}
                   className="mb-4"
+                  loading="lazy"
                 />
               </object>
               <h4 className="text-base font-semibold text-black">STEP 2</h4>
@@ -213,6 +221,7 @@ export default function FoundingMembersPage() {
                   width={64}
                   height={64}
                   className="mb-4"
+                  loading="lazy"
                 />
               </object>
               <h4 className="text-base font-semibold text-black">STEP 3</h4>

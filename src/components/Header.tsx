@@ -27,7 +27,7 @@ export default function Header() {
       name: "AcuView",
       desc: "Real-Time Loan Intelligence At Your Fingertips",
       icon: "/favicon-acuview.svg",
-      href: "/acuview", // ✅ here we point to your AcuView page
+      href: "/acuview",
     },
     {
       name: "Verafi.me",
@@ -52,7 +52,6 @@ export default function Header() {
   return (
     <header className="w-full absolute top-0 left-0 z-20  bg-[rgba(255,255,255,0.1)]">
       <div className="w-full max-w-[1920px] mx-auto px-6 md:px-12 py-3 flex items-center justify-between">
-        {/* Logo */}
         <div className="flex items-center space-x-2 cursor-pointer">
           <Image
             src="/AcufiLogo.png"
@@ -114,6 +113,7 @@ export default function Header() {
                           alt={product.name}
                           width={28}
                           height={28}
+                          loading="lazy"
                         />
                       </div>
                       <div className="flex flex-col">

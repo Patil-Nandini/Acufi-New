@@ -61,6 +61,7 @@ export default function AcufiBankVerification() {
                   width={28}
                   height={28}
                   className="w-6 h-6 sm:w-8 sm:h-8"
+                  loading="lazy"
                 />
                 {item.label}
               </div>
@@ -79,6 +80,7 @@ export default function AcufiBankVerification() {
                   alt="Explore"
                   width={20}
                   height={20}
+                  loading="lazy"
                 />
                 <span>Schedule Your Demo Today!</span>
               </button>
@@ -131,6 +133,7 @@ export default function AcufiBankVerification() {
                   width={28}
                   height={28}
                   className="w-6 h-6 sm:w-8 sm:h-8"
+                  loading="lazy"
                 />
                 {item.label}
               </div>
@@ -168,6 +171,7 @@ export default function AcufiBankVerification() {
                   width={28}
                   height={28}
                   className="w-6 h-6 sm:w-8 sm:h-8"
+                  loading="lazy"
                 />
                 {item.label}
               </div>

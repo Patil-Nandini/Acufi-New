@@ -106,6 +106,7 @@ const VerafiSection = () => {
             width={1000}
             height={390}
             className="w-full h-auto"
+            loading="lazy"
           />
           <div className="absolute text-white lg:text-[12px] xl:text-[14px] lg:p-3 xl:p-5 lg:w-[25%] xl:w-[27.5%] text-center bg-[url('/pill-with-white.webp')] bg-cover bg-center bg-no-repeat top-[20%] lg:left-[5%] xl:left-[2.7%]">
             Supports US & Canadian IDs <br />
@@ -201,6 +202,7 @@ const VerafiSection = () => {
                   width={30}
                   height={30}
                   className="w-[30px] h-[30px] mt-1"
+                  loading="lazy"
                 />
                 <span>{item.text}</span>
               </div>
@@ -238,6 +240,7 @@ const VerafiSection = () => {
                   width={30}
                   height={30}
                   className="w-[30px] h-[30px] mr-2"
+                  loading="lazy"
                 />
                 {item.text}
               </p>

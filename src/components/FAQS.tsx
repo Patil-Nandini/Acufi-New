@@ -158,19 +158,19 @@ export default function FaqSection() {
                 alt="Rocket Icon"
                 width={20}
                 height={20}
+                loading="lazy"
               />
               <span className="ml-2 whitespace-nowrap">Get Your Demo!</span>
             </button>
           </div>
         </div>
       </div>
-
-      {/* Gear image */}
       <Image
         src="/faq-setting.webp"
         alt="FAQ Gear"
         width={140}
         height={140}
+        loading="lazy"
         className="absolute left-0 top-6 w-[60px] sm:w-[80px] md:w-[120px] lg:w-[140px] opacity-80 pointer-events-none select-none"
         draggable={false}
       />

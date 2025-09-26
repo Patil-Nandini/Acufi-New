@@ -4,7 +4,6 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 
 export default function AcuCheck() {
-   const router = useRouter();
 
   const items = [
     { img: "EmploymentVerification.png", label: "Employment Verification" },
@@ -58,6 +57,7 @@ export default function AcuCheck() {
                   alt="Explore"
                   width={20}
                   height={20}
+                  loading="lazy"
                 />
                 <span>Explore AcuCheck in Action</span>
               </button>
@@ -83,6 +83,7 @@ export default function AcuCheck() {
                   width={20}
                   height={20}
                   className="relative pb-[10px]"
+                  loading="lazy"
                 />
                 <span className="relative pb-[10px]">Request A Demo</span>
                 <span className="absolute top-[-6] left-1/2 -translate-x-1/2 -translate-y-1/2 w-[100%] h-[50%] pointer-events-none" />
@@ -91,13 +92,11 @@ export default function AcuCheck() {
           </div>
         </div>
 
-        {/* Image */}
         <div className="flex-1 flex justify-center lg:justify-end w-[100%]">
           <object
             type="image/svg+xml"
             data="/Cash-flow-in-the-new-credit-score.svg"
             className="w-sm:[75%] w-lg:[90%]"
-            // className="w-[100%] sm:w-[70%] md:w-full max-w-[500px] h-auto"
           >
             Cash flow illustration
           </object>
@@ -144,6 +143,7 @@ export default function AcuCheck() {
                   width={32}
                   height={36}
                   className="w-8 h-9"
+                  loading="lazy"
                 />
                 <div>
                   <h4 className="font-semibold text-[20px] mb-1 ">{f.title}</h4>
@@ -154,7 +154,6 @@ export default function AcuCheck() {
           </div>
         </div>
 
-        {/* Right */}
         <div className="w-full xl:w-[35%] bg-[#0B2D58] p-6 sm:p-8">
           <h3 className="text-2xl sm:text-3xl font-semibold mb-6">
             Built For Better Lending
@@ -174,6 +173,7 @@ export default function AcuCheck() {
                   width={24}
                   height={24}
                   className="w-6 h-6"
+                  loading="lazy"
                 />
                 {item}
               </li>
@@ -182,13 +182,11 @@ export default function AcuCheck() {
         </div>
       </div>
 
-      {/* Know Your Customer */}
       <div className="bg-[#0B2D58] text-white mt-2 mb-15 p-6 sm:p-9 w-[95%] lg:w-[85%] rounded-b-[14px]">
         <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-6">
           Know Your Customer
         </h2>
 
-        {/* Ownership */}
         <div className="border-b border-white/30 pb-5 mb-5">
           <h3 className="text-lg sm:text-xl font-medium mb-4">
             Bank Account Ownership
@@ -204,6 +202,7 @@ export default function AcuCheck() {
                   alt={item.label}
                   width={36}
                   height={36}
+                  loading="lazy"
                 />
                 {item.label}
               </div>
@@ -211,7 +210,6 @@ export default function AcuCheck() {
           </div>
         </div>
 
-        {/* History */}
         <div>
           <h3 className="text-lg sm:text-xl font-medium mb-4">
             Bank Account History
@@ -227,6 +225,7 @@ export default function AcuCheck() {
                   alt={item.label}
                   width={40}
                   height={40}
+                  loading="lazy"
                 />
                 {item.label}
               </div>

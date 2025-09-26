@@ -90,6 +90,7 @@ export default function Comparison() {
                           width={20}
                           height={20}
                           className="mr-2"
+                          loading="lazy"
                         />
                         1 - 3 Days
                       </div>
@@ -102,6 +103,7 @@ export default function Comparison() {
                           width={20}
                           height={20}
                           className="mr-2"
+                          loading="lazy"
                         />
                         2 - 6 Weeks
                       </div>
@@ -120,6 +122,7 @@ export default function Comparison() {
                           width={20}
                           height={20}
                           className="w-5 h-5 mr-2"
+                          loading="lazy"
                         />
                         Real-Time Cash Flow analysis + Loan Stacking
                       </div>
@@ -132,6 +135,7 @@ export default function Comparison() {
                           width={20}
                           height={20}
                           className="w-5 h-5 mr-2"
+                          loading="lazy"
                         />
                         Outdated Reports <br />
                         (30 - 60 days)
@@ -151,6 +155,7 @@ export default function Comparison() {
                           width={20}
                           height={20}
                           className="w-5 h-5 mr-2"
+                          loading="lazy"
                         />
                         Short-term lending, Peptides, Cannabis, Crypto, etc.
                       </div>
@@ -163,6 +168,7 @@ export default function Comparison() {
                           width={20}
                           height={20}
                           className="w-5 h-5 mr-2"
+                          loading="lazy"
                         />
                         Declined
                       </div>
@@ -181,6 +187,7 @@ export default function Comparison() {
                           width={20}
                           height={20}
                           className="w-5 h-5 mr-2"
+                          loading="lazy"
                         />
                         Behavioral + Warnings
                       </div>
@@ -193,6 +200,7 @@ export default function Comparison() {
                           width={20}
                           height={20}
                           className="w-5 h-5 mr-2"
+                          loading="lazy"
                         />
                         Minimal
                       </div>
@@ -211,6 +219,7 @@ export default function Comparison() {
                           width={20}
                           height={20}
                           className="w-5 h-5 mr-2"
+                          loading="lazy"
                         />
                         100% Digital
                       </div>
@@ -223,6 +232,7 @@ export default function Comparison() {
                           width={20}
                           height={20}
                           className="w-5 h-5 mr-2"
+                          loading="lazy"
                         />
                         Paper-heavy, Slow
                       </div>
@@ -260,7 +270,8 @@ export default function Comparison() {
                       alt="Yes"
                       width={20}
                       height={20}
-                      className="mr-2 "
+                      className="mr-2"
+                      loading="lazy"
                     />
                     {
                       [
@@ -303,6 +314,7 @@ export default function Comparison() {
                       width={20}
                       height={20}
                       className="mr-2"
+                      loading="lazy"
                     />
                     {
                       [
@@ -321,28 +333,6 @@ export default function Comparison() {
         </div>
 
         <div className="mt-30">
-          {/* <Link href="https://acufi.com/lets-connect/">
-            <button
-              type="button"
-              className="flex items-center justify-center w-55 min-h-[80px] text-white font-semibold cursor-pointer"
-              style={{
-                backgroundImage: "url('/button-bg.webp')",
-                backgroundSize: "100% 100%",
-                backgroundRepeat: "no-repeat",
-                paddingBottom: "15px",
-              }}
-              aria-label="Get Started"
-            >
-              <Image
-                src="/RocketIcon.png"
-                alt="Rocket Icon"
-                width={20}
-                height={20}
-                className="mr-3"
-              />
-              <span>Get Started!</span>
-            </button>
-          </Link> */}
           <button
             type="button"
             className="flex items-center justify-center h-[90px] text-white font-semibold cursor-pointer w-[270px] sm:w-[250px] px-7"
@@ -360,6 +350,7 @@ export default function Comparison() {
               alt="Rocket Icon"
               width={20}
               height={20}
+              loading="lazy"
             />
             <span className="ml-2 whitespace-nowrap">Get Started!</span>
           </button>

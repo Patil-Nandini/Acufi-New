@@ -47,21 +47,13 @@ const BankingModels = () => {
                   width={20}
                   height={20}
                   className="w-5 h-5"
+                  loading="lazy"
                 />
                 Talk to Sales
               </button>
             </Link>
           </div>
         </div>
-
-        {/* <div
-          className="relative flex flex-col w-full max-w-5xl items-center bg-no-repeat bg-center bg-cover min-h-0 sm:min-h-[500px]"
-          // style={{
-          //   backgroundImage: "url('/layout-webp.webp')",
-          // }}
-        > */}
-
-        {/* </div> */}
       </section>
     </div>
   );

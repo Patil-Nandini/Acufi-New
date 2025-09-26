@@ -55,7 +55,6 @@ export default function HeroSection() {
                 backgroundSize: "contain",
                 backgroundRepeat: "no-repeat",
                 backgroundPosition: "center",
-                // padding: "20px 47px",
                 marginLeft: "-12px",
               }}
             >
@@ -117,6 +116,7 @@ export default function HeroSection() {
                     width={35}
                     height={35}
                     className="w-[35px] transition-transform duration-500 ease-in-out origin-center group-hover:-rotate-45"
+                    loading="lazy"
                   />
                 </div>
                 <p className=" text-[18px] sm:text-[18px] text-center mb-7">
@@ -144,24 +144,20 @@ export default function HeroSection() {
               Your browser does not support the video tag.
             </video>
 
-            {/* Overlay text boxes — positioned in % so they follow the video size */}
             {showOverlay && (
               <div className="absolute inset-0 z-20 pointer-events-none">
-                {/* Box 1 */}
                 <div className="absolute pointer-events-auto left-[6%] sm:left-[8%] md:left-[8%] lg:left-[8%] xl:left-[8%] top-[51.4%] sm:top-[53%] md:top-[53%] lg:top-[53%] xl:top-[54%] w-[36%] sm:w-[62%] md:w-[33%] lg:w-[30%] xl:w-[30%] text-white rounded-xl p-3 sm:p-3.5 md:p-2">
                   <p className="font-semibold text-[6px] sm:text-[9px] md:text-[14px] lg:text-[10px] xl:text-[12px] leading-snug">
                     Get underwritten in 1–2 days
                   </p>
                 </div>
 
-                {/* Box 2 */}
                 <div className="absolute pointer-events-auto left-[6%] sm:left-[8%] md:left-[8%] lg:left-[8%] xl:left-[8%] top-[66.5%] sm:top-[68%] md:top-[68%] lg:top-[68%] xl:top-[69%] w-[48%] sm:w-[62%] md:w-[38%] lg:w-[40%] xl:w-[54%] text-white rounded-xl p-3 sm:p-3.5 md:p-2">
                   <p className="font-semibold text-[7px] sm:text-[9px] md:text-[14px] lg:text-[10px] xl:text-[12px] leading-snug">
                     Full-service business banking
                   </p>
                 </div>
 
-                {/* Box 3 */}
                 <div className="absolute pointer-events-auto left-[6%] sm:left-[8%] md:left-[7%] lg:left-[7%] xl:left-[7%] bottom-[7.8%] sm:bottom-[10%] md:bottom-[9%] lg:bottom-[9.5%] xl:bottom-[9%] w-[66%] sm:w-[62%] md:w-[58%] lg:w-[56%] xl:w-[54%] text-white rounded-xl p-3 sm:p-3.5 md:p-4">
                   <p className="font-semibold text-[7px] sm:text-[9px] md:text-[14px] lg:text-[10px] xl:text-[12px] leading-snug">
                     Purpose-built tools for lending, cash flow, and payments

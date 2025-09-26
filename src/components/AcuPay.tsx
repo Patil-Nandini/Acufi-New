@@ -40,35 +40,11 @@ export default function AcuPay() {
                   alt="Explore"
                   width={20}
                   height={20}
+                  loading="lazy"
                 />
                 <span>Explore AcuPay in Action</span>
               </button>
             </Link>
-            {/* <Link href="#">
-              <button
-                className="
-        relative overflow-hidden
-        flex items-center justify-center gap-2
-        px-6 py-7 sm:py-6 h-[72px] w-[255px]
-        text-white font-semibold
-         cursor-pointer
-      "
-              >
-                <span
-                  className="absolute inset-0 z-0 bg-cover bg-center"
-                  style={{ backgroundImage: "url('/AcuCheck2Bg.webp')" }}
-                />
-                <Image
-                  src="/RequestDemoWhite.svg"
-                  alt="Demo"
-                  width={20}
-                  height={20}
-                  className="relative"
-                />
-                <span className="relative">Request A Demo</span>
-                <span className="absolute top-[-6] left-1/2 -translate-x-1/2 -translate-y-1/2 w-[100%] h-[50%] pointer-events-none" />
-              </button>
-            </Link> */}
           </div>
         </div>
 
@@ -111,6 +87,7 @@ export default function AcuPay() {
                   width={24}
                   height={24}
                   className="w-6 h-6"
+                  loading="lazy"
                 />
                 <span className="leading-4 lg:leading-3.5 xl:leading-5 tracking-[-0.01em] pl-0.5">
                   {text}
@@ -165,6 +142,7 @@ export default function AcuPay() {
                   width={24}
                   height={24}
                   className="w-6 h-6 flex-shrink-0"
+                  loading="lazy"
                 />
                 <span className="leading-4 lg:leading-3.5 xl:leading-5 tracking-[-0.01em] pl-0.5">
                   {feature.split(/<br\s*\/?>/i).map((part, i, arr) => (
@@ -214,6 +192,7 @@ export default function AcuPay() {
                   width={30}
                   height={30}
                   className="w-[30px] h-[30px] mr-2"
+                  loading="lazy"
                 />
                 {item.text}
               </li>
@@ -251,6 +230,7 @@ export default function AcuPay() {
                   width={32}
                   height={32}
                   className="w-6 h-6 sm:w-8 sm:h-8"
+                  loading="lazy"
                 />
                 {item.label}
               </div>

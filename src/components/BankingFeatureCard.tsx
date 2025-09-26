@@ -4,7 +4,7 @@ import Image from "next/image";
 interface BankingFeatureCardProps {
   icon?: React.ReactNode;
   title: string;
-  description: React.ReactNode; // safer than `any`
+  description: React.ReactNode;
   imageSrc?: string;
   altText?: string;
 }
@@ -44,6 +44,7 @@ const BankingFeatureCard: React.FC<BankingFeatureCardProps> = ({
           width={184} 
           height={190}
           className="w-[190px] h-[170px]"
+          loading="lazy"
         />
       </div>
     )}

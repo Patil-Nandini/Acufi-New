@@ -7,23 +7,7 @@ import Image from "next/image";
 
 export default function BankingPage() {
     const [bgImage, setBgImage] = useState("/product-bg3.png"); 
-  // const [bgSize, setBgSize] = useState<"cover" | "contain">("cover");
 
-  // useEffect(() => {
-  //   const handleResize = () => {
-  //     if (window.innerWidth < 630) {
-  //      setBgImage("/for-dev.png"); 
-  //       setBgSize("contain");         
-  //     } else {
-  //       setBgImage("/product-bg3.png");
-  //       setBgSize("cover");            
-  //     }
-  //   };
-
-  //   handleResize(); 
-  //   window.addEventListener("resize", handleResize);
-  //   return () => window.removeEventListener("resize", handleResize);
-  // }, []);
   return (
     <div className="bg-white sarabun w-full flex align-center justify-center mt-12">
       <div className=" w-full flex items-center justify-center flex-col">
@@ -108,6 +92,7 @@ export default function BankingPage() {
                         width={32}
                         height={32}
                         className="w-8 h-8"
+                        loading="lazy"
                       />
                     }
                     name="AcuCheck"
@@ -121,6 +106,7 @@ export default function BankingPage() {
                         width={32}
                         height={32}
                         className="w-8 h-8"
+                        loading="lazy"
                       />
                     }
                     name="AcuView"
@@ -135,6 +121,7 @@ export default function BankingPage() {
                         width={32}
                         height={32}
                         className="w-8 h-8"
+                        loading="lazy"
                       />
                     }
                     name="AcuPay"
