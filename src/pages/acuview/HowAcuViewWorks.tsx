@@ -42,6 +42,7 @@ export default function HowAcuViewWorks() {
               src="/RocketIcon.png"
               alt="Rocket Icon"
               width={20}
+              loading="lazy"
               height={20}
             />
             <span className="ml-2 whitespace-nowrap"> Get Your Demo!</span>
@@ -57,6 +58,7 @@ export default function HowAcuViewWorks() {
                 width={48}
                 height={48}
                 className="w-[80] h-[80]"
+                loading="lazy"
               />
             </div>
             <h3 className="text-lg font-bold text-center mb-2 mt-3 border-b border-[#E9E9E9] pb-5">
@@ -76,6 +78,7 @@ export default function HowAcuViewWorks() {
                 width={48}
                 height={48}
                 className="w-[80] h-[80]"
+                loading="lazy"
               />
             </div>
             <h3 className="text-lg font-bold text-center mb-2 mt-3 border-b border-[#E9E9E9] pb-5">
@@ -93,6 +96,7 @@ export default function HowAcuViewWorks() {
                 width={48}
                 height={48}
                  className="w-[80] h-[80]"
+                 loading="lazy"
               />
             </div>
             <h3 className="text-lg font-bold text-center mb-2 mt-3 border-b border-[#E9E9E9] pb-5">
@@ -110,6 +114,7 @@ export default function HowAcuViewWorks() {
                 width={48}
                 height={48}
                  className="w-[80] h-[80]"
+                 loading="lazy"
               />
             </div>
             <h3 className="text-lg font-bold text-center mb-2 mt-3 border-b border-[#E9E9E9] pb-5">

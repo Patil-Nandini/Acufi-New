@@ -56,6 +56,7 @@ export default function IntroducingTheFirst() {
             height={200}   
             className="w-[90%] h-[100%] md:w-[60%] md:h-[60%] lg:w-[85%]"
             aria-label="Fading Logo"
+            
           >
             Fading Logo
           </object>
@@ -92,6 +93,7 @@ export default function IntroducingTheFirst() {
                     className="w-13 h-13"
                     width={44}
                     height={44}
+                    loading="lazy"
                   />
                 </div>
 

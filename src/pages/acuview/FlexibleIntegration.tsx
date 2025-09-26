@@ -113,6 +113,7 @@ export default function FlexibleIntegrationOptions() {
                 alt="Rocket Icon"
                 width={20}
                 height={20}
+                loading="lazy"
               />
               <span className="ml-2 whitespace-nowrap"> Get Your Demo!</span>
             </button>
@@ -131,6 +132,7 @@ export default function FlexibleIntegrationOptions() {
                   alt="API Integration Icon"
                   width={32}
                   height={32}
+                  loading="lazy"
                 />
                 <span className="text-xl font-bold text-gray-900 flex justify-center items-center">
                   API Integration
@@ -163,6 +165,7 @@ export default function FlexibleIntegrationOptions() {
                   alt="API Integration Icon"
                   width={32}
                   height={32}
+                  loading="lazy"
                 />
                 <span className="text-xl font-bold text-gray-900">
                   Web Portal
@@ -203,7 +206,7 @@ function FeatureCard({ text }: { text: string }) {
     "
     >
       <span className="mb-2">
-        <Image src="/CircleGreen.svg" alt="" width={32} height={32} />
+        <Image src="/CircleGreen.svg" alt="" width={32} height={32} loading="lazy" />
       </span>
       <span className="text-left text-base text-gray-800 font-medium">
         {text}

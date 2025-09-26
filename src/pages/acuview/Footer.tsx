@@ -32,6 +32,7 @@ export default function Footer() {
               width={200}
               height={60}
               className="object-contain"
+              loading="lazy"
             />
           </div>
 

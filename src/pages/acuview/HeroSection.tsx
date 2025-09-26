@@ -19,6 +19,7 @@ const HeroSection: React.FC = () => {
                   alt="Rocket Icon"
                   width={20}
                   height={20}
+                  loading="lazy"
                 />
                 WORLD&apos;S FIRST PATENTED TECHNOLOGY
               </span>
@@ -62,6 +63,7 @@ const HeroSection: React.FC = () => {
                       width={120}
                       height={120}
                       className="w-[200px] rounded-xl lg:w-[150px] xl:w-[200px]"
+                      loading="lazy"
                       style={{ objectFit: "cover" }}
                     />
                   </div>
@@ -127,6 +129,7 @@ const HeroSection: React.FC = () => {
                     alt="Arrow Icon"
                     width={35}
                     height={35}
+                    loading="lazy"
                     className="w-[35px] transition-transform duration-500 ease-in-out origin-center group-hover:rotate-45"
                   />
                 </div>
@@ -148,6 +151,7 @@ const HeroSection: React.FC = () => {
                     alt="Arrow Icon"
                     width={35}
                     height={35} 
+                    priority
                     className="w-[35px] transition-transform duration-500 ease-in-out origin-center group-hover:rotate-45 lg:mt-[15px] xl:mt-[0] "
                   />
                 </div>
@@ -172,6 +176,7 @@ const HeroSection: React.FC = () => {
                   alt="Rocket Icon"
                   width={20}
                   height={20}
+                  loading="lazy"
                 />
                 WORLD&apos;S FIRST PATENTED TECHNOLOGY
               </span>
@@ -211,6 +216,7 @@ const HeroSection: React.FC = () => {
                         alt="Loan Intelligence"
                         width={120}
                         height={120}
+                        loading="lazy"
                         className="xl:w-[200px] lg:w-[150px] md:w-[250px] rounded-xl"
                         style={{ objectFit: "cover" }}
                       />
@@ -266,6 +272,7 @@ const HeroSection: React.FC = () => {
                     height={100}
                     src="/BlueImageMobile.png"
                     alt="Loan Intelligence"
+                    loading="lazy"
                     className="rounded-xl w-full h-auto mt-[20px]"
                   />
                 </div>
@@ -328,6 +335,7 @@ const HeroSection: React.FC = () => {
                     alt="Arrow Icon"
                     width={35}
                     height={35}
+                    loading="lazy"
                     className="w-[35px] transition-transform duration-500 ease-in-out origin-center group-hover:rotate-45"
                   />
                 </div>
@@ -348,6 +356,7 @@ const HeroSection: React.FC = () => {
                     alt="Arrow Icon"
                     width={35}
                     height={35}
+                    loading="lazy"
                     className="w-[35px] transition-transform duration-500 ease-in-out origin-center group-hover:rotate-45"
                   />
                 </div>
@@ -360,141 +369,6 @@ const HeroSection: React.FC = () => {
           </div>
         </div>
       </section>
-      
-      {/* <section className="relative bg-white py-12 md:py-16 font-sarabun mt-10 w-full md:block lg:hidden">
-      <div className="w-[90%] mx-auto flex flex-col gap-4 items-center">
-        <div className="w-full py-4 pt-10">
-          <div className="inline-flex items-center gap-2 bg-black text-white text-xs sm:text-sm px-4 py-2 rounded-full font-semibold mb-4">
-            <Image
-              src="/AwardIcon.svg"
-              alt="Award Icon"
-              width={20}
-              height={20}
-            />
-            WORLD&apos;S FIRST PATENTED TECHNOLOGY
-          </div>
-
-          <h1 className="text-[25px] sm:text-[32px] font-black leading-tight text-[#000000] uppercase">
-            <span>See What Some Borrowers </span>
-            <span
-              className="inline-block py-[12px] px-[28px] sm:px-[36px] rounded-[60px] text-[22px] sm:text-[28px] font-bold"
-              style={{
-                backgroundImage: "url('dont.png')",
-                color: "#FFFFFF",
-                backgroundSize: "contain",
-                backgroundRepeat: "no-repeat",
-                backgroundPosition: "center",
-              }}
-            >
-              DON&apos;T
-            </span>{" "}
-            Want You To See!
-          </h1>
-
-          <div className="hidden md:block relative bg-cover bg-no-repeat bg-center rounded-2xl w-full h-[428px] mt-5 bg-[url('/tabview-bg-acuview.webp')]">
-            <div className="absolute inset-0 flex">
-              <div className="flex flex-col justify-between h-full pl-8 pt-6 pb-8 w-[45%]">
-                <div>
-                  <h2 className="text-[20px] font-bold text-[#333]">
-                    Real-Time Loan Intelligence
-                  </h2>
-                  <p className="text-[16px] text-[#333] mt-2">
-                    Built to protect every dollar you lend
-                  </p>
-                </div>
-                <Image
-                  src="/BlueImage.png"
-                  alt="Loan Intelligence"
-                  width={150}
-                  height={150}
-                  className="rounded-xl"
-                />
-              </div>
-
-              <div className="relative flex flex-col justify-between h-full w-[55%] pr-6 py-6">
-                <div className="absolute top-0 right-0 w-full h-[50%] rounded-tr-2xl p-6">
-                  <div className="flex justify-end w-full">
-                    <object
-                      type="image/svg+xml"
-                      data="/bannerright.svg"
-                      className="h-[52px]"
-                      aria-label="AcuView Icon"
-                    >
-                      Acuview
-                    </object>
-                  </div>
-                  <span className="text-white font-bold text-[18px]">AcuView</span>
-                  <p className="text-white text-[15px] mt-2">
-                    It is the only technology in the world that shows you in real
-                    time customer data
-                  </p>
-                </div>
-
-                <div className="absolute bottom-0 right-0 p-6">
-                  <p className="text-white text-[15px]">
-                    It alerts you when your borrower is simultaneously applying
-                    for loans with other stores or online lenders.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="flex justify-center items-center w-full">
-          <div className="w-[288px] md:w-[700px] bg-gradient-to-r from-[#F2F2F4] to-[#F8F8FA] rounded-[25px] flex flex-col justify-center items-center px-4 pt-[30px] md:hidden">
-            <div className="flex flex-col items-center">
-              <div className="text-center mb-6">
-                <h2 className="text-[20px] font-bold text-[#0F1720]">
-                  Real-Time Loan Intelligence
-                </h2>
-                <p className="text-[15px] text-[#0F1720]">
-                  Built to protect every dollar you lend
-                </p>
-                <Image
-                  width={100}
-                  height={100}
-                  src="/BlueImageMobile.png"
-                  alt="Loan Intelligence"
-                  className="rounded-xl w-full h-auto mt-5"
-                />
-              </div>
-
-              <div
-                className="relative h-[320px] max-w-[300px] rounded-xl p-5 text-white bg-cover bg-center"
-                style={{ backgroundImage: "url('/acuview-bg.webp')" }}
-              >
-                <div className="mb-6">
-                  <div className="flex flex-col">
-                    <div className="flex justify-end w-full">
-                      <object
-                        type="image/svg+xml"
-                        data="/bannerright.svg"
-                        className="h-[52px]"
-                        aria-label="AcuView Icon"
-                      >
-                        Acuview
-                      </object>
-                    </div>
-                    <h3 className="font-bold mb-2">AcuView</h3>
-                  </div>
-                  <p className="text-[15px]">
-                    It is the only technology in the world that shows you in real
-                    time.
-                  </p>
-                </div>
-                <div className="min-h-[107px]">
-                  <p className="text-[15px] mt-6">
-                    It alerts you when your borrower is simultaneously applying
-                    for loans with other stores or online lenders.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section> */}
     </>
   );
 };

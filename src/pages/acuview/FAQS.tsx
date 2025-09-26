@@ -156,6 +156,7 @@ export default function FaqSection() {
                 alt="Rocket Icon"
                 width={20}
                 height={20}
+                loading="lazy"
               />
               <span className="ml-2 whitespace-nowrap">Get Your Demo!</span>
             </button>
@@ -170,6 +171,7 @@ export default function FaqSection() {
         height={140}
         className="absolute left-0 top-6 w-[60px] sm:w-[80px] md:w-[120px] lg:w-[140px] opacity-80 pointer-events-none select-none"
         draggable={false}
+        loading="lazy"
       />
     </section>
   );

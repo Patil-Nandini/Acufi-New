@@ -118,6 +118,7 @@ const Testimonials = () => {
                     width={60}
                     height={60}
                     className="w-[60px] h-[60px] rounded-full"
+                    loading="lazy"
                   />
                   <div className="text-left">
                     <h4 className="text-[22px] font-semibold text-[#0F1720]">
@@ -160,6 +161,7 @@ const Testimonials = () => {
                         width={60}
                         height={60}
                         className="w-[60px] h-[60px] rounded-full"
+                        loading="lazy"
                       />
                       <div className="text-left">
                         <h4 className="text-[22px] font-semibold text-[#0F1720]">
@@ -189,6 +191,7 @@ const Testimonials = () => {
                   width={40}
                   height={40}
                   className="w-10"
+                  loading="lazy"
                 />
               </button>
               <button onClick={slideNext}>
@@ -198,6 +201,7 @@ const Testimonials = () => {
                   width={40}
                   height={40}
                   className="w-10"
+                  loading="lazy"
                 />
               </button>
             </div>

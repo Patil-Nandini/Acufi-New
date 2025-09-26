@@ -95,7 +95,7 @@ return (
 
              <div className="relative mt-6 flex items-end justify-center">
                <div className="relative z-10 w-32 h-32 rounded-full flex items-center justify-center">
-                 <Image src={c.icon} width={128} height={128} alt={c.title} />
+                 <Image src={c.icon} width={128} height={128} alt={c.title} loading="lazy" />
                </div>
              </div>
            </article>

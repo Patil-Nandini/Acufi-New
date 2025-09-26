@@ -39,6 +39,7 @@ export default function LenderNetworkEffect() {
               alt="Demo Icon"
               width={20}
               height={20}
+              loading="lazy"
             />
             <span className="ml-2">Watch Now!</span>
           </button>

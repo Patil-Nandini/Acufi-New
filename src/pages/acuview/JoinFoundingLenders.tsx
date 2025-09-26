@@ -11,7 +11,6 @@ export default function LendingBanner() {
   return (
     <section className="w-full flex justify-center relative  lg:px-6 lg:px-20  lg:top-[100px]">
       <section className="flex flex-col-reverse md:flex-row items-center justify-between bg-[#1272D2] lg:rounded-[27px] shadow-lg p-6 sm:p-8 lg:p-5 max-w-6xl w-full gap-8 mt-[-120px] md:mt-[-150px] lg:mt-[-200px]   ">
-        {/* Image */} 
         <div className="flex justify-center items-center w-full lg:w-1/2">
           <object
             type="image/svg+xml"
@@ -47,6 +46,7 @@ export default function LendingBanner() {
               alt="Rocket Icon"
               width={20}
               height={20}
+              loading="lazy"
             />
             15-Minute Demo!
           </button>

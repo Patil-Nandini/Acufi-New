@@ -42,6 +42,7 @@ export default function FoundingBenefits() {
             alt="Rocket Icon"
             width={20}
             height={20}
+            loading="lazy"
           />
           <span className="ml-2 whitespace-nowrap">Join The Network!</span>
         </button>
