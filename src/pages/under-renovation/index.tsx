@@ -15,7 +15,6 @@ export default function UnderRenovation() {
           width={500}
           height={500}
           priority
-          loading="lazy"
         />
       </div>
       <Footer />

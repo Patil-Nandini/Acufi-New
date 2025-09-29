@@ -162,7 +162,6 @@ const WhoisAcuViewBuiltFor: React.FC = () => {
             width={1920}
             height={1080}
             className="w-full h-auto max-w-[1920px] hidden md:block"
-            loading="lazy"
             priority
           />
           <Image
@@ -172,7 +171,6 @@ const WhoisAcuViewBuiltFor: React.FC = () => {
             height={1080}
             className="w-full h-[1200px] max-w-[300px] md:hidden "
             priority
-            loading="lazy"
           />
           {/* Card 1 */}
           <div className="absolute top-[1%] left-[16%] lg:left-[5%] md:left-[5%] md:top-[4%] w-[250px] md:w-[300px] text-center flex flex-col items-center">

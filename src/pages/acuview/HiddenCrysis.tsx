@@ -35,7 +35,6 @@ export default function HiddenCrisisSection() {
                 height={48}
                 priority
                 className="absolute -top-6 right-1 w-15 h-15  sm:-top-7 sm:left-58"
-                loading="lazy"
               />
               <div className="flex items-baseline">
                 <div className="text-[25px] sm:text-[40px] font-bold mr-2 bg-gradient-to-tr from-[#034E9A] via-[#2390FC] to-[#2390FC] bg-clip-text text-transparent">
@@ -60,7 +59,6 @@ export default function HiddenCrisisSection() {
                 height={48}
                 priority
                 className="absolute -top-6 right-1 w-15 h-15  sm:-top-7 sm:left-58"
-                loading="lazy"
               />
               <div className="flex items-baseline">
                 <div className="text-[25px] sm:text-[40px] font-bold mr-2 bg-gradient-to-tr from-[#034E9A] via-[#2390FC] to-[#2390FC] bg-clip-text text-transparent">
@@ -84,7 +82,6 @@ export default function HiddenCrisisSection() {
                 height={48}
                 priority
                 className="absolute -top-6 right-1 w-15 h-15  sm:-top-7 sm:left-58"
-                loading="lazy"
               />
               <div className="flex items-baseline">
                 <div className="text-[25px] sm:text-[40px] font-bold mr-2 bg-gradient-to-tr from-[#034E9A] via-[#2390FC] to-[#2390FC] bg-clip-text text-transparent">
