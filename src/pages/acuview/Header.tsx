@@ -9,7 +9,7 @@ import { useRouter } from "next/navigation";
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const [showProducts, setShowProducts] = useState(false);
- const router = useRouter();
+  const router = useRouter();
   const products = [
     {
       name: "AcuCheck",
@@ -39,6 +39,12 @@ export default function Header() {
       name: "Bank Verification",
       desc: "Bank Account Ownership Verification within Seconds",
       icon: "/Customer-Stories.png",
+      href: "https://acusky.net/",
+    },
+    {
+      name: "AcuSky",
+      desc: "All in One Solution for Airport Management.",
+      icon: "/AcuSky.png",
       href: "https://acusky.net/",
     },
   ];
@@ -84,7 +90,10 @@ export default function Header() {
               </h4>
               <ul className="space-y-4">
                 {products.map((product) => (
-                  <li key={product.name} className="flex items-center space-x-3">
+                  <li
+                    key={product.name}
+                    className="flex items-center space-x-3"
+                  >
                     <div className="flex-shrink-0 w-10 h-10 bg-white rounded-full flex items-center justify-center shadow">
                       <Image
                         src={product.icon}
@@ -128,10 +137,15 @@ export default function Header() {
         <div className="hidden lg:block">
           <button
             type="button"
-             onClick={() => router.push("/under-renovation")}
+            onClick={() => router.push("/under-renovation")}
             className="flex items-center space-x-2 px-5 py-2 border-2 border-[#085AAC] rounded-full text-[#085AAC] font-medium shadow-[0px_5px_18px_-9.3px_#01459FCC] cursor-pointer"
           >
-            <Image src="/BlueRocket.svg" alt="Rocket Icon" width={20} height={20} />
+            <Image
+              src="/BlueRocket.svg"
+              alt="Rocket Icon"
+              width={20}
+              height={20}
+            />
             <span>Get Started</span>
           </button>
         </div>
@@ -184,7 +198,10 @@ export default function Header() {
             {showProducts && (
               <ul className="mt-3 space-y-3">
                 {products.map((product) => (
-                  <li key={product.name} className="flex items-center space-x-3">
+                  <li
+                    key={product.name}
+                    className="flex items-center space-x-3"
+                  >
                     <div className="flex-shrink-0 w-10 h-10 bg-white rounded-full flex items-center justify-center shadow">
                       <Image
                         src={product.icon}
@@ -221,7 +238,12 @@ export default function Header() {
             }
             className="flex w-full justify-center items-center space-x-2 px-5 py-2 border-2 border-[#01459FCC] rounded-full text-[#01459FCC] font-medium shadow cursor-pointer"
           >
-            <Image src="/RocketIcon.png" alt="Rocket Icon" width={20} height={20} />
+            <Image
+              src="/RocketIcon.png"
+              alt="Rocket Icon"
+              width={20}
+              height={20}
+            />
             <span>Get Started</span>
           </button>
         </div>
