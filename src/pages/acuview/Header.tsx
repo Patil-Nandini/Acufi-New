@@ -39,7 +39,7 @@ export default function Header() {
       name: "Bank Verification",
       desc: "Bank Account Ownership Verification within Seconds",
       icon: "/Customer-Stories.png",
-      href: "/under-renovation",
+      href: "https://acusky.net/",
     },
   ];
 

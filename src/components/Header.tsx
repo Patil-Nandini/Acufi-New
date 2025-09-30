@@ -45,7 +45,7 @@ export default function Header() {
       name: "AcuSky",
       desc: "All in One Solution for Airport Management.",
       icon: "/AcuSky.png",
-      href: "/under-renovation",
+    href: "https://acusky.net/",
     },
   ];
 

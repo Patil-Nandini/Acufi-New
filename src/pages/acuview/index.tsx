@@ -22,7 +22,7 @@ import Footer from "@/pages/acuview/Footer";
 
 export default function Home() {
   return (
-    <main className="bg-white flex justify-center">
+    <main className="bg-white flex justify-center font-sarabun">
       <div className="w-full ">
         <Header />
         <HeroSection />
